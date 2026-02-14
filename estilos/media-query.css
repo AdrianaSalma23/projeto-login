@@ -1,0 +1,30 @@
+@charset "UTF-8"
+
+/* Typical Device Breackpoints
+-------------------------------
+Pequenas telas: at'e 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Descktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+* {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 90vw
+    }
+    
+    Section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    Section#login > div#formulario {
+        float: right;
+    }
+}
